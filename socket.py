@@ -9,3 +9,7 @@ soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 soc.connect((HOST, PORT))
 
 
+# To open a listening port on a host for incomming connections, use netcat
+# nc -nvlp port_number
+
+
